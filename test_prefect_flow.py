@@ -12,5 +12,4 @@ def trigger_dbt_flow() -> str:
 
 if __name__ == "__main__":
     trigger_dbt_flow.serve(name="testing-deployment",
-                      tags=["testing"],
-                      interval=60)
+                      tags=["testing"])
